@@ -1,0 +1,51 @@
+{
+  "name": "angular2-camelCase",
+  "version": "0.0.1",
+  "description": "Angular2 pipe to convert camelCase strings to human readable strings Edit",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "karma start",
+    "build": "ngc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/previousdeveloper/angular2-camelCase.git"
+  },
+  "keywords": [
+    "angular2",
+    "camelCase",
+    "stringOperation"
+  ],
+  "author": "Gokhan Karadas <gokhan.karadas1992@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/previousdeveloper/angular2-camelCase/issues"
+  },
+  "homepage": "https://github.com/previousdeveloper/angular2-camelCase#readme",
+  "peerDependencies": {
+    "@angular/core": "^2.2.3"
+  },
+  "dependencies": {
+    "decamelize": "1.2.0",
+    "typings": "^2.0.0"
+
+  },
+  "devDependencies": {
+    "@angular/common": "^2.4.4",
+    "@angular/compiler": "^2.4.4",
+    "@angular/compiler-cli": "^2.4.4",
+    "@angular/core": "^2.4.4",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.0",
+    "@types/phantom": "^3.2.0",
+    "@types/protractor": "^4.0.0",
+    "@types/selenium-webdriver": "^2.53.39",
+    "@types/systemjs": "^0.19.33",
+    "protractor": "^5.0.0",
+    "rxjs": "^5.0.3",
+    "typescript": "^2.1.5",
+    "zone.js": "^0.7.6"
+  }
+}
