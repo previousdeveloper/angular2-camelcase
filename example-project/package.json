@@ -4,11 +4,15 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "ng serve",
+    "postinstall": "npm install && npm install -g http-server",
+    "heroku-prebuild": "npm install && npm install -g http-server",
+    "heroku-postbuild": "ng build --dev",
+    "start": "http-server dist/",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
-    "e2e": "protractor"
+    "e2e": "protractor",
+    "serve": "ng serve"
   },
   "private": true,
   "dependencies": {
