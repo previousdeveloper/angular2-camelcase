@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {CamelCaseHumanPipe} from './camelCaseToHuman.pipe';
+import {CamelCaseHumanPipe} from './camelcase-to-human.pipe';
 
 @NgModule({
     declarations: [CamelCaseHumanPipe],

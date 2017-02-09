@@ -4,6 +4,9 @@
   "description": "Angular2 pipe to convert camelCase strings to human readable strings Edit",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "karma start",
     "build": "ngc"
@@ -29,7 +32,6 @@
   "dependencies": {
     "decamelize": "1.2.0",
     "typings": "^2.0.0"
-
   },
   "devDependencies": {
     "@angular/common": "^2.4.4",
@@ -37,15 +39,30 @@
     "@angular/compiler-cli": "^2.4.4",
     "@angular/core": "^2.4.4",
     "@types/core-js": "^0.9.35",
+    "@types/es6-shim": "0.0.31",
     "@types/jasmine": "^2.5.41",
     "@types/node": "^7.0.0",
     "@types/phantom": "^3.2.0",
     "@types/protractor": "^4.0.0",
     "@types/selenium-webdriver": "^2.53.39",
     "@types/systemjs": "^0.19.33",
+    "es6-shim": "^0.35.1",
+    "jasmine-core": "^2.5.1",
+    "karma": "^1.1.2",
+    "jasmine": "^2.3.2",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.24",
+    "karma-webpack": "^1.8.0",
+    "phantomjs-prebuilt": "^2.1.10",
     "protractor": "^5.0.0",
+    "reflect-metadata": "0.1.2",
     "rxjs": "^5.0.3",
+    "systemjs": "^0.19.38",
+    "ts-loader": "0.8.2",
     "typescript": "^2.1.5",
+    "webpack": "^1.13.1",
     "zone.js": "^0.7.6"
   }
 }
