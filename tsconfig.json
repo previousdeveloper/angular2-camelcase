@@ -1,19 +1,40 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "noImplicitAny": false,
     "module": "commonjs",
+    "target": "es5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "removeComments": true,
+    "declaration": true,
     "sourceMap": true,
-    "declaration": true
-  },
-  "angularCompilerOptions": {
-    "genDir": "compiled"
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./dist/",
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules"
+    ],
+    "types": [
+      "core-js",
+      "jasmine",
+      "selenium-webdriver",
+      "node",
+      "systemjs"
+    ]
   },
   "files": [
-    "linky-pipe.ts",
-    "linky-pipe.spec.ts",
     "index.ts"
-  ]
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "example",
+    "examples",
+    "typings",
+    "aot"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "aot",
+    "skipMetadataEmit" : false
+  }
 }
