@@ -1,12 +1,9 @@
 {
-  "name": "angular2-camelCase",
-  "version": "0.0.1",
+  "name": "angular2-camelcase",
+  "version": "0.0.4",
   "description": "Angular2 pipe to convert camelCase strings to human readable strings Edit",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "test": "karma start",
     "build": "ngc"
@@ -26,9 +23,6 @@
     "url": "https://github.com/previousdeveloper/angular2-camelCase/issues"
   },
   "homepage": "https://github.com/previousdeveloper/angular2-camelCase#readme",
-  "peerDependencies": {
-    "@angular/core": "^2.2.3"
-  },
   "dependencies": {
     "decamelize": "1.2.0",
     "typings": "^2.0.0"

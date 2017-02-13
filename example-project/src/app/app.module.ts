@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import {CamelCaseHumanModule} from '../../../src/camelcase-to-human.module';
+import {CamelCaseHumanModule} from 'angular2-camelcase';
 
 @NgModule({
   declarations: [
