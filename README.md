@@ -15,7 +15,7 @@ import {CamelCaseHumanModule} from 'angular2-camelcase';
 
 @NgModule({
   declarations: [
-    AppComponent
+    CamelCaseHumanModule
   ],
   ....
   
